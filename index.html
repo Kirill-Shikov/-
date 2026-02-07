@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index_style.css">
+    <script src="index_java.js" defer></script> 
+    
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <span class="header_name">Петров Василий</span>
+      <p class="header_profession">DevOps-инженер</p>
+      <span class="header_about">Здесь информация о себе, который специалист напишет сам. Например: хочу работать в новом продукте,
+                           искать лучшие решения в классной команде. На связи с 8:00 по 21:00 по МСК.</span>
+      <div class="header__buttons">
+        <button class="button button--primary">Связаться</button>
+        <button class="button button--outline">Портфолио</button>
+      </div>
+    </div>
+    <div class="container__photo">
+      <img class="header__photo" 
+           src="img/73c879a1-b521-480e-a787-47b011cb0eb2-персональная страница.jpg" 
+           alt="Фото Петрова Василия">
+    </div>
+  </div>
+
+  <section  class="section section--main-info">
+    <h2 class="section__title">ОСНОВНАЯ ИНФОРМАЦИЯ</h2>
+    <div class="main-info">
+      <ul class="main-info__list">
+        <li>
+          <span class="main-info__label">ФИО</span>
+          <strong class="main-info__value">Петров Василий Иванович</strong>
+        </li>
+        <li>
+          <span class="main-info__label">Гражданство</span>
+          <strong class="main-info__value">Россия</strong>
+        </li>
+        <li>
+          <span class="main-info__label">Город проживания</span>
+          <strong class="main-info__value">Москва</strong>
+        </li>
+      </ul>
+      <ul class="main-info__list">
+        <li>
+          <span class="main-info__label">Telegram</span>
+          <strong class="main-info__value">@ivanovich</strong>
+        </li>
+        <li>
+          <span class="main-info__label">Почта</span>
+          <strong class="main-info__value">ivanovich@mail.ru</strong>
+        </li>
+        <li>
+          <span class="main-info__label">Телефон</span>
+          <strong class="main-info__value">+7 (999) 999-99-99</strong>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--working-projects">
+    <h2 class="section__title">Работа в проектах</h2>
+    <article class="projects">
+      <time class="project__period">март 2024 - июнь 2024</time>
+      <img class="project__logo"
+          src="img/logo.jpg"
+          alt="Логотип компании" >
+      <h3 class="project__title">Проект ProfPlay</h3>
+      <p class="project__subtitle">онлайн платформа профориентации на основе игровых практик</p>
+      <div class="project__description">ProfPlay — онлайн-платформа профориентации, специализирующаяся на методах геймификации. Основная цель
+           платформы — сделать процесс выбора будущей профессии для подростков не только продуктивным, но и
+           интересным, опираясь на игровые практики.
+      </div>
+      <span class="project__goals-title">что мы хотим создать:</span>
+      <ol class="project__goals">
+        <li>Создать систему тестирования пользователей.</li>
+        <li>Проанализировать и выбрать лучшие методы геймификации профориентации.</li>
+        <li>Разработать концепцию мини-игр по различным профессиям.</li>
+        <li>Внедрить ачивки и балльную систему для участников.</li>
+      </ol>
+
+      <div class="project__technologies">Инструменты и технологии: Python, React, PostgreSQL</div>
+    </article>
+    <div class="project__tasks">
+      <h4 class="project__role">DevOps-инжинер</h4>
+      <p class="project__tasks-title">выполнял задачи:</p>
+      <ul class="project__tasks-list">
+        <li>Или применял навыки?</li>
+        <li>Выполнил что-то еще</li>
+        <li>Сделал то-се</li>
+      </ul>
+    </div>
+    <article class="projects">
+      <time class="project__period">март 2024 - июнь 2024</time>
+      <img class="project__logo"
+           src="img/logo.jpg"
+           alt="Логотип компании">
+      <h3 class="project__title">Развитие инструментов ГК Эйтика</h3>
+      <div class="project__description">
+        Вклад в развитие инструментов группы компаний Эйтика. Описание этих инструментов
+        вообще всех, универсальное. А справа будем писать функции конкретного этого человека. 
+      </div>
+      <p class="project__note">Что‑то ещё.</p>
+    </article>
+    <div class="project__tasks">
+      <h4 class="project__role">DevOps-инжинер</h4>
+      <p class="project__tasks-title">выполнял задачи:</p>
+      <ul class="project__tasks-list">
+        <li>Или применял навыки?</li>
+        <li>Выполнил что-то еще</li>
+        <li>Сделал то-се</li>
+      </ul>
+    </div>
+  </section>
+  <section class="section section--achievements">
+    <h2 class="section__title achievements">Достижения</h2>
+    <div class="achievements-scroll-container">
+      <div class="achievements-list" id="achievementsList">
+      </div>
+    </div>
+  </section>
+</body>
+</html>
